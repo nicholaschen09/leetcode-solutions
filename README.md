@@ -1,0 +1,1 @@
+all my solutions to leetcode questions that i've done in python
