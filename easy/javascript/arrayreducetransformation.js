@@ -58,3 +58,5 @@
 var reduce = function (nums, fn, init) {
   return nums.reduce((accumulator, current) => fn(accumulator, current), init);
 };
+
+
