@@ -22,7 +22,7 @@
 # All values of indices are unique.
 
 class Solution:
-    def restoreString(self, s: str, indices: List[int]) -> str:
+    def shuffleString(self, s: str, indices: List[int]) -> str:
         result = [""] * len(s) #creates a list the same size of s
         for i in range(len(s)):
             result[indices[i]] = s[i] #place each char in the correct order
